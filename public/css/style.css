@@ -1,0 +1,116 @@
+/*Navbar Login Button*/
+.navbar-nav > li > button {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*Sticky Footer*/
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #2a2730;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer-links {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links li+li {
+    margin-left: 15px;
+}
+
+/*Login/Logout Buttons*/
+.nav .btn {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0 !important;
+}
+
+/*Modal Size*/
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 400px;
+    margin: 200px auto;
+  }
+}
+
+
+/*Logout Modal*/
+.modal-footer .btn+.btn {
+    margin-bottom: auto;
+    display: inline;
+    margin-left: 265px;
+}
+
+.logout-title {
+  margin-left: 45px;
+}
+
+form {
+  margin-bottom: 30px;
+}
+
+/*.logout-close {
+  margin-right: 306px;
+}*/
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+
+.page-header{
+  margin-top:0;
+}
