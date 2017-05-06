@@ -1,16 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var mongoose = require('mongoose');
-
-var Schema = mongoose.Schema;
-
-var forumSchema = new Schema({
-  title: {type: String, required: true},
-  message: String
-}, {collection: 'user-data'});
-
-var Forum = module.exports = mongoose.model('Forum', forumSchema);
-
 
 // Post
 router.get('/get-data', function(req, res, next){
