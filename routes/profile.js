@@ -1,8 +1,6 @@
 var express = require('express');
 var router = express.Router();
 
-var Topic = require('../models/topic');
-
 // Get Homepage
 router.get('/dashboard', ensureAuthenticated, function(req, res){
 	res.render('profile');
