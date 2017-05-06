@@ -7,12 +7,12 @@ var User = require('../models/user');
 
 // Register
 router.get('/register', function(req, res){
-	res.render('register');
+	res.render('/');
 });
 
 // Login
 router.get('/login', function(req, res){
-	res.render('login');
+	res.render('/');
 });
 
 // Register User
@@ -34,7 +34,7 @@ router.post('/register', function(req, res){
 	var errors = req.validationErrors();
 
 	if(errors){
-		res.render('register',{
+		res.send('Please fix registration errors.',{
 			errors:errors
 		});
 	} else {
@@ -49,6 +49,8 @@ router.post('/register', function(req, res){
 			if(err) throw err;
 			console.log(user);
 		});
+
+		req.flash('success_msg', 'You are registered and can now login');
 
 		res.redirect('/');
 	}
