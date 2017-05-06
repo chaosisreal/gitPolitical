@@ -11,11 +11,12 @@
                 Welome to GitPolitical
             </h1>
 
-            <h3>
-
-            </h3>
             <div class="well">
                 <p>
+                  {{# each items }}
+                    <h3>Title: {{ this.title }}</h3>
+                    <div>Message: {{ this.content }}</div>
+                  {{/each}}
                 </p>
             </div>
 
