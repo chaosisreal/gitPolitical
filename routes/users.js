@@ -52,7 +52,7 @@ router.post('/register', function(req, res){
 
 		req.flash('success_msg', 'You are registered and can now login');
 
-		res.redirect('/');
+		res.redirect('/users/login');
 	}
 });
 
