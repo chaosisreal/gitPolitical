@@ -34,7 +34,7 @@ router.post('/register', function(req, res){
 	var errors = req.validationErrors();
 
 	if(errors){
-		res.send('Please fix registration errors.',{
+		res.render('/',{
 			errors:errors
 		});
 	} else {
