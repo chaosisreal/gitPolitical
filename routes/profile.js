@@ -1,7 +1,36 @@
 var express = require('express');
 var router = express.Router();
+var mongoose = require('mongoose');
 
-var Forum = require('../models/topic');
+var Schema = mongoose.Schema;
+
+var forumSchema = new Schema({
+  title: {type: String, required: true},
+  message: String
+}, {collection: 'user-data'});
+
+var Forum = module.exports = mongoose.model('Forum', forumSchema);
+
+
+// Post
+router.get('/get-data', function(req, res, next){
+	postData.find()
+		.then(function(doc) {
+			res.render('/', {items: doc});
+		});
+});
+
+router.post('/insert', function(req, res, next){
+		var item = {
+			title: req.body.tile,
+			message: req.body.message
+		};
+
+		var data = new postData(item);
+		data.save();
+
+		res.redirect('/');
+});
 
 // Get Homepage
 router.get('/dashboard', ensureAuthenticated, function(req, res){
@@ -16,27 +45,6 @@ function ensureAuthenticated(req, res, next){
 		res.redirect('/');
 	}
 }
-
-// Post
-router.get('/get-data', function(req, res, next){
-	Forum.find()
-		.then(function(doc) {
-			res.render('/', {items: doc});
-		});
-});
-
-router.post('/insert', function(req, res, next){
-		var item = {
-			title: req.body.tile,
-			message: req.body.message
-		};
-
-		var data = new Forum(item);
-		data.save();
-
-		res.redirect('/');
-});
-
 
 // 	var title = req.body.name;
 // 	var message = req.body.email;
