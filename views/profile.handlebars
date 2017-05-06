@@ -1,24 +1,25 @@
+<!DOCTYPE html>
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 col-lg-offset-3">
 
             <h1 class="page-header">
                 Welcome to your Dashboard
             </h1>
 
             <h3>Submit a Topic</h3>
-            <form method="post" action="/profile/topic" name="sentTopic" id="topicForm" novalidate>
+            <form method="get" action="/profile/topic" name="sentTopic">
                 <div class="control-group form-group">
                     <div class="controls">
                         <label>Topic Title:</label>
-                        <input type="text" class="form-control" name="topic" id="topic" required data-validation-required-message="Please enter a topic.">
+                        <input type="text" class="form-control" placeholder="Enter a topic..." name="topic" >
                         <p class="help-block"></p>
                     </div>
                 </div>
                 <div class="control-group form-group">
                     <div class="controls">
                         <label>Message:</label>
-                        <input type="tel" class="form-control" name="message" id="message" required data-validation-required-message="Please enter a message.">
+                        <textarea class="form-control" name="message" placeholder="Enter a message..."></textarea>
                     </div>
                 </div>
                 <div id="success"></div>
