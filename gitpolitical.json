@@ -1,0 +1,82 @@
+{
+    "_id": {
+        "$oid": "5907d56f0db262a2f47f518c"
+    },
+    "name": "Eric",
+    "email": "eric2010nut@gmail.com",
+    "username": "berniesandersforpres",
+    "password": "$2a$10$2gMv3OvJbvTT8mupYaDtVuRROrB7kEBuCTwUkdN9WKAxK1VNFgJOW",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590bac09ea49af1f844be419"
+    },
+    "name": "test",
+    "email": "tester@gmail.com",
+    "username": "testerson",
+    "password": "$2a$10$36eglcQhXRnwRnccl1T0m.U4LeZzTFSDpXiZmdoybr3aeiK4Hf9EG",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590bac09ea49af1f844be41a"
+    },
+    "name": "test",
+    "email": "tester@gmail.com",
+    "username": "testerson",
+    "password": "$2a$10$lQr80mZ0UmWspEshTFUmQ.ERznLpT1Eft6aTDZmHoRNQ2xrenPj2i",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d3d11182b403da89c36ed"
+    },
+    "name": "eric",
+    "email": "eric@email.com",
+    "username": "Hello",
+    "password": "$2a$10$tZKdTde8hxptQPoNfuimhel8AlHKRXUtKdB7rbyFNW.1K04eDFieq",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d400d182b403da89c36ee"
+    },
+    "name": "Eric",
+    "email": "me@email.com",
+    "username": "Aperson",
+    "password": "$2a$10$jngCRYxDQqraj659IHS3Ce.fJ3gTH252k431QEMAI69G4JrbSWV..",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d4085182b403da89c36ef"
+    },
+    "name": "Eric",
+    "email": "me@email.com",
+    "username": "Aperson",
+    "password": "$2a$10$vKJLxM0jDKVG7IlMLUA7s.3qSjhPfJe.x2D6YMVYaRYKHH7ohm61u",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d40de182b403da89c36f0"
+    },
+    "name": "Eric",
+    "email": "noob@email.com",
+    "username": "Noob",
+    "password": "$2a$10$jhw66PbBU/tFjnW.H7fzdeHaE3YrnW374yTCl9JWziLRORN17ZLaW",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d4382182b403da89c36f1"
+    },
+    "name": "eric",
+    "email": "hello@mail.com",
+    "username": "helome",
+    "password": "$2a$10$7h7z5TknNbBsewb9DlxY3.iu3GrIXsujYpsWCI3bG0oHt.0YakNt2",
+    "__v": 0
+} {
+    "_id": {
+        "$oid": "590d488a182b403da89c36f2"
+    },
+    "name": "Eric ",
+    "email": "Hellonoob@mail.com",
+    "username": "Notmeagain",
+    "password": "$2a$10$MQfPMHMN9gF9lgoBTbnjTO5swEI3cgn3avMSJM90fl4kfdlxVoq6y",
+    "__v": 0
+}

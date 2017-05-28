@@ -17,24 +17,3 @@ function ensureAuthenticated(req, res, next){
 }
 
 module.exports = router;
-
-// // Post
-// router.get('/get-data', function(req, res, next){
-// 	postData.find()
-// 		.then(function(doc) {
-// 			res.render('/', {items: doc});
-// 		});
-// });
-//
-// router.post('/insert', function(req, res, next){
-// 		var item = {
-// 			title: req.body.tile,
-// 			message: req.body.message
-// 		};
-//
-// 		var data = new postData(item);
-// 		data.save();
-//
-// 		res.redirect('/');
-// });
-//
